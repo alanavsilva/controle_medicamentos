@@ -7,7 +7,7 @@ create table funcionários (
     email varchar(225) not null 
 );
 
-create table pedido (
+create table pedidos_reposicao (
     id_pedido int auto_increment primary key, 
     nome_medicamento varchar(225) not null,
     quantidade_medicamento int not null,
